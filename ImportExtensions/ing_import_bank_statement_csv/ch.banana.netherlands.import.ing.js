@@ -81,13 +81,28 @@ function IngFormat3() {
     this.colCount = 11;
 
     /** Return true if the transactions match this format */
-    this.match = function(transactions) {
-        if (transactions.length === 0)
-            return false;
-        if (transactions[0].length === (this.colCount))
-            return true;
-        return false;
-    }
+    // Return true if the transactions match this format
+	this.match = function (transactions) {
+		
+		if (transactions.length === 0)
+			return false;
+
+		for (var i = 0; i < transactions.length; i++) {
+			var transaction = transactions[i];
+			var formatMatched = true;
+			
+			if (formatMatched && transaction[this.colDate] && transaction[this.colDate].length >= 10 &&
+				transaction[this.colDate].match(/^\d{2}-\d{2}-\d{4}$/))
+				formatMatched = true;
+			else
+				formatMatched = false;
+
+			if (formatMatched)
+				return true;
+		}
+
+		return false;
+	}
 
     /** Convert the transaction to the format to be imported */
     this.convert = function(transactions) {
