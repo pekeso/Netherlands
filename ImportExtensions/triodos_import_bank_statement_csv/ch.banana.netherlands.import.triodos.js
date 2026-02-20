@@ -101,8 +101,6 @@ function TriodosBankFormat1() {
 			else
 				formatMatched = false;
 
-            Banana.console.log("Date: " + transaction[this.colDate] + " - Format Matched: " + formatMatched);
-
 			if (formatMatched)
 				return true;
 		}
