@@ -1,0 +1,21 @@
+{
+    "category": "import",
+    "country": "netherlands",
+    "countryCode": "nl",
+    "description": "Triodos Bank - Import bank account statement (*.csv)",
+    "description.en": "Triodos Bank - Import bank account statement (*.csv)",
+    "description.nl": "Triodos Bank - Bankafschrift importeren (*.csv)",
+    "description.de": "Triodos Bank - Kontoauszug importieren (*.csv)",
+    "description.fr": "Triodos Bank - Importer un relevé de compte bancaire (*.csv)",
+    "description.it": "Triodos Bank - Importa movimenti estratto conto bancario (*.csv)",
+    "id": "ch.banana.netherlands.import.triodos",
+    "language": "nl",
+    "publisher": "Banana.ch",
+    "title": "Triodos Bank - Import bank account statement (*.csv)",
+    "title.en": "Triodos Bank - Import bank account statement (*.csv)",
+    "title.nl": "Triodos Bank - Bankafschrift importeren (*.csv)",
+    "title.de": "Triodos Bank - Kontoauszug importieren (*.csv)",
+    "title.fr": "Triodos Bank - Importer un relevé de compte bancaire (*.csv)",
+    "title.it": "Triodos Bank - Importa movimenti estratto conto bancario(*.csv)",
+    "version": "1.0"
+}

@@ -4,3 +4,9 @@ build-*
 *.DS_Store
 *.test.diff.txt
 **/test/testresults
+**/build-*/
+*.user
+**/build/
+~$*
+**/.vscode/
+**/.qtCreator/
